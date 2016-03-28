@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var myLabel: UILabel!
     
     @IBAction func clickButton(sender: UIButton) {
+        //print goodbye
+        myLabel.text = "Goodbye 21w.789x"
         myLabel.text = "Goodbye 21w.789x"
         
     }
