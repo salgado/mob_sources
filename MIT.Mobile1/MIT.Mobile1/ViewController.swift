@@ -15,8 +15,16 @@ class ViewController: UIViewController {
     
     @IBAction func clickButton(sender: UIButton) {
         //print goodbye
-        myLabel.text = "Goodbye 21w.789x"
-        myLabel.text = "Goodbye 21w.789x"
+        if (myLabel == "Goodbye 21w.789x")
+        {
+            myLabel.text = "Hello 21w.789x"
+            
+        }
+        else
+        {
+        
+            myLabel.text = "Goodbye 21w.789x"
+        }
         
     }
     override func viewDidLoad() {
